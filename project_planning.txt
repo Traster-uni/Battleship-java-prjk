@@ -1,0 +1,27 @@
+ -*- GENERAL STRUCTURE -*- 
+Firstly is nececcery that we build a solid system of essential classes that interact with eachother 
+accordly with the project specifications, this means that we need to sketch the class, test them, build methods, test them again,
+support them with the porper data structure and finally, once the objects works as intended we need to test them allthogheter and
+test interactions, if the interactions are not working correctly we may need to build interactive systems similarly to a how a ListIteretor
+is needed to interact more efficiently with the LinkedList or the ArrayList in Java.
+ex:
+-Essential class system:
+	Grid: a that stores the position of the ships on a matrix
+	|	it need to keep a register like structure that register the entries in the object.
+	|--Positional Grid: a grid that stores each player's placing of ships.
+	|--Attack Grid: a grid that keeps track of where the player lanches the attacks. 
+					(idea: Positional and Attack Grids of 2 different players should be linked togher.
+	
+	Ships: the entities that must be stored ojn the grid in order to play the game.
+		Different kind of ships are just a line or a column with different lenghts.
+
+Secondly we need to design a secondary set of class to woek on the GUI:
+	The GUI should rapresent a grid where the player can select were the ship should go;
+		It should also present a rapresentation of the Attack Grid so that the player can chose where to land the it,
+			with maybe an "x" for a miss and a "thic" for a hit.
+			It could also implement a massage system where the Attack Grid class comunicates to the player if the shot hit close to 
+			a ship or not.
+		It should give the player a series of drop-down menus which he can use to choose which ship to pick an drop.
+		It should also have a button to pass the turn after each player actions.
+		
+If you have suggestion please write me asap!
