@@ -24,4 +24,3 @@ Secondly we need to design a secondary set of class to woek on the GUI:
 		It should give the player a series of drop-down menus which he can use to choose which ship to pick an drop.
 		It should also have a button to pass the turn after each player actions.
 		
-If you have suggestion please write me asap!
