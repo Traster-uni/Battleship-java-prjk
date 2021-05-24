@@ -1,3 +1,5 @@
 Una interfaccia che descriva il una serie di metodi/variabili per l'output in file.
 necessario per il debug di calssi come la griglia e le navi.
 
+Grid dovrebbe essere una generic
+
